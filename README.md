@@ -5,5 +5,8 @@ this will install everything needed for fivem coding.
 
 
 npm i = installs all profiles for package and fivem
+
 npm run build = for production 
+
 npm run watch = for dev instant updates.
+
