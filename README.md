@@ -1,6 +1,6 @@
 # FiveM-TypeScript
 easy to use just type
-## NPM I 
+## npm i 
 this will install everything needed for fivem coding. 
 
 npm run build = for production 
