@@ -1,10 +1,17 @@
 fx_version 'cerulean'
+
 game 'gta5'
 
-client_scripts {
-	'build/client/client.js'
+name 'FiveM Resource'
+
+files {
+  'ui/dist/index.html',
+  'ui/dist/*',
+  'ui/dist/**/*',
+  'ui/dist/**/**/*',
 }
 
-server_scripts {
-	'build/server/server.js'
-}
+ui_page 'ui/dist/index.html'
+
+client_script 'app/build/client/*.client.js'
+server_script 'app/build/server/*.server.js'
